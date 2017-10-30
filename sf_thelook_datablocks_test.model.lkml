@@ -1,4 +1,4 @@
-connection: "thelook_snowflake"
+connection: "snowflake-datablocks"
 
 # include all the views
 include: "ecomm*.view"
@@ -50,8 +50,8 @@ explore: orders {
   }
 }
 
-explore: products {}
+explore: financial_data {}
 
-explore: test_nulls {}
+explore: products {}
 
 explore: users {}

@@ -1,11 +1,11 @@
-project_name: "datablocks"
+project_name: "sf_thelook_datablocks_test"
 
 local_dependency: {
   project: "datablocks_gsod"
 }
 
 local_dependency: {
-  project: "data_sources"
+  project: "datablocks_finance"
 }
 
 local_dependency: {
