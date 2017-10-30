@@ -45,7 +45,7 @@ view: order_items {
 
   measure: total_sales {
     type: sum
-    sql: {$sale_price} ;;
+    sql: ${sale_price} ;;
   }
 
   measure: avg_sales {
