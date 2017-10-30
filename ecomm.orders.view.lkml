@@ -1,5 +1,5 @@
 view: orders {
-  sql_table_name: PUBLIC.ORDERS ;;
+  sql_table_name: THELOOK.PUBLIC.ORDERS ;;
 
   dimension: id {
     primary_key: yes

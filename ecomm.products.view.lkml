@@ -1,5 +1,5 @@
 view: products {
-  sql_table_name: PUBLIC.PRODUCTS ;;
+  sql_table_name: THELOOK.PUBLIC.PRODUCTS ;;
 
   dimension: id {
     primary_key: yes

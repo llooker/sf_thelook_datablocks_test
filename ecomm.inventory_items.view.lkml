@@ -1,5 +1,5 @@
 view: inventory_items {
-  sql_table_name: PUBLIC.INVENTORY_ITEMS ;;
+  sql_table_name: THELOOK.PUBLIC.INVENTORY_ITEMS ;;
 
   dimension: id {
     primary_key: yes

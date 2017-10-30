@@ -1,5 +1,5 @@
 view: users {
-  sql_table_name: PUBLIC.USERS ;;
+  sql_table_name: THELOOK.PUBLIC.USERS ;;
 
   dimension: id {
     primary_key: yes
@@ -15,6 +15,9 @@ view: users {
   dimension: age_tier {
     type: tier
     tiers: [12,18,25,35,45,55,65]
+    style: integer
+    sql: ${age} ;;
+
   }
 
   dimension: city {
