@@ -5,7 +5,7 @@ include: "finance*.view"
 include: "acs*.view"
 include: "exchangerate*.view"
 
-#include: "/datablocks_exchangerate/sf.explore*"
+include: "/datablocks_exchangerate/sf.explore*"
 
 # explore: zipcode_income_facts {}
 
