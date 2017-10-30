@@ -11,3 +11,7 @@ local_dependency: {
 local_dependency: {
   project: "datablocks_acs"
 }
+
+local_dependency: {
+  project: "datablocks_exchangerate"
+}
