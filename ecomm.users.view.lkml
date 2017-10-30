@@ -12,6 +12,11 @@ view: users {
     sql: ${TABLE}.AGE ;;
   }
 
+  dimension: age_tier {
+    type: tier
+    tiers: [12,18,25,35,45,55,65]
+  }
+
   dimension: city {
     type: string
     sql: ${TABLE}.CITY ;;
@@ -57,6 +62,11 @@ view: users {
     sql: ${TABLE}.LAST_NAME ;;
   }
 
+  dimension: full_name {
+    type:  string
+    sql: {$first_name} || ' ' || ${last_name} ;;
+  }
+
   dimension: state {
     type: string
     sql: ${TABLE}.STATE ;;
@@ -76,4 +86,5 @@ view: users {
     type: count
     drill_fields: [id, first_name, last_name, orders.count]
   }
+
 }

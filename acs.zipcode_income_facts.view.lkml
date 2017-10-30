@@ -10,7 +10,9 @@ view: zipcode_income_facts {
       column: total_population { field: block_group_facts.total_population }
     }
   }
-  dimension: ZCTA5 {}
+  dimension: ZCTA5 {
+    primary_key: yes
+  }
   dimension: income_household {
     hidden: yes
   }
